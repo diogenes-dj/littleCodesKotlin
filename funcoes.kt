@@ -5,7 +5,7 @@
 fun main() {
     val z:Int
    	
-    z = calculate(34, 90,::sum)
+    z = calculate(34, 90){a,b -> a*b} //posso fazer soma, divisão ou qualquer outra operação inteiro
     println(z)
     }
 
