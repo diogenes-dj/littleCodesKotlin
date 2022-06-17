@@ -1,11 +1,14 @@
 /**
- * 
+ * Alguns exemplos de funções!!!
  * 
  */
 fun main() {
     val z:Int
    	
-    z = calculate(34, 90){a,b -> a*b} //posso fazer soma, divisão ou qualquer outra operação inteiro
+    z = calculate(34, 90){a,b -> 
+        println("Resultado da operação é:")
+        a+b
+    }
     println(z)
     }
 
