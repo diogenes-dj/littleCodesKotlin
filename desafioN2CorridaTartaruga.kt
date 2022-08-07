@@ -1,5 +1,5 @@
 // Abaixo segue um exemplo de código que você pode ou não utilizar
-fun main(args: Array<String>) {
+fun main() {
     
   for(i in 1..3) {
     val l = readLine()!!.toInt()
