@@ -10,7 +10,7 @@ fun main() {
     val perimetro =   a+b+c 
     val area = ((a+b)*c)/2
     
-    if (a<(  2  ) &&  b<( 3    ) &&  c<(  4    )){
+    if (a<(  b+c  ) &&  b<( a+c    ) &&  c<(  b+a    )){
         println(String.format("Perimetro = %.1f",   perimetro     ))
     }else{
         println(String.format("Area = %.1f",  area      ))
